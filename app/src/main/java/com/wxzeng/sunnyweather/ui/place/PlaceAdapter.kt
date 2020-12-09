@@ -10,6 +10,13 @@ import com.wxzeng.sunnyweather.R
 import com.wxzeng.sunnyweather.logic.model.Place
 import kotlinx.android.synthetic.main.place_item.view.*
 
+/**
+ * @author: weixingzeng
+ * @e-mail: 330446962@qq.com
+ * @date 2020/12/09
+ * @desc: 城市数据适配器
+ * @version:1.0
+ */
 class PlaceAdapter(private val fragment:Fragment,private val placeList:List<Place>)
     :RecyclerView.Adapter<PlaceAdapter.ViewHolder>(){
 

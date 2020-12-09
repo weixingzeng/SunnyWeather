@@ -13,6 +13,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.wxzeng.sunnyweather.R
 import kotlinx.android.synthetic.main.fragment_place.*
 
+/**
+ * @author: weixingzeng
+ * @e-mail: 330446962@qq.com
+ * @date 2020/12/09
+ * @desc: 搜索全球城市数据显示页面
+ * @version:
+ */
 class PlaceFragment : Fragment() {
 
     val viewModel by lazy { ViewModelProvider(this).get(PlaceViewModel::class.java) }

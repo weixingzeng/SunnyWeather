@@ -7,6 +7,14 @@ import kotlinx.coroutines.Dispatchers
 import java.lang.Exception
 import java.lang.RuntimeException
 
+
+/**
+ * @author: weixingzeng
+ * @e-mail: 330446962@qq.com
+ * @date 2020/12/09
+ * @desc: 数据仓库层，用来获取数据缓存或者网络请求
+ * @version:1.0
+ */
 object Repository {
 
     fun SearchPlaces(query:String) = liveData(Dispatchers.IO) {

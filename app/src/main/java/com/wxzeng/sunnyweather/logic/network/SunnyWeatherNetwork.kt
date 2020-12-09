@@ -11,6 +11,13 @@ import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine
 
 
+/**
+ * @author: weixingzeng
+ * @e-mail: 330446962@qq.com
+ * @date 2020/12/09
+ * @desc: 网络数据源入口
+ * @version:1.0
+ */
 object SunnyWeatherNetwork {
 
     private val placeService = ServiceCreator.create<PlaceService>()
